@@ -1,0 +1,5 @@
+const {WebhookClient, Image} = require ('dialogflow-fillment') 
+const agent = new WebhookClient ({request, response})
+agent.add ( 
+  nueva imagen (' https://avatars1.githubusercontent.com/u/36980416 ') 
+)
